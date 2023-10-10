@@ -9,15 +9,17 @@ int numero;
 
 setlocale(LC_ALL,"portuguese");
 
-printf("Digite um n˙mero: ");
+printf("Digite um n√∫mero: ");
 scanf("%d",&numero);
 
 system("cls || clear");
 
+//numero % 2 == 0? print("√â PAR!") : printf("√â √çMPAR!");    
+
 if(numero %2 == 0){
-    printf("… PAR!");
+    printf("√â PAR!");
 }else{
-    printf("… ÕMPAR!");
+    printf("√â √çMPAR!");
 }
 
 getchar();
