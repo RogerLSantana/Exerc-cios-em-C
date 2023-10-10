@@ -15,17 +15,17 @@ int main()
 
     printf("Qual seu ano de nascimento:");
     scanf("%d", &anoNascimento);
-    printf("Qual o seu tempo de contribuição?:");
+    printf("Qual o seu tempo de contribuiÃ§Ã£o?:");
     scanf("%d", &TempoDeTrabalho);
-    printf("Qual seu código:");
+    printf("Qual seu cÃ³digo:");
     scanf("%d", &codigo);
 
     system("cls || clear");
 
     idade = 2023 - anoNascimento;
 
-    printf("Código: %d\n", codigo);
-    printf("Idade %d \n", idade);
+    printf("CÃ³digo: %d\n", codigo);
+    printf("Idade: %d \n", idade);
     printf("Tempo de trabalho: %d \n", TempoDeTrabalho);
 
     if (idade >= 65 || TempoDeTrabalho >= 30)
@@ -34,7 +34,7 @@ int main()
     }
     else
     {
-        printf("Não requerer aposentadoria");
+        printf("NÃ£o requerer aposentadoria");
     }
 
     getchar();
