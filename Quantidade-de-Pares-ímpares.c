@@ -11,10 +11,10 @@ int main()
     setlocale(LC_ALL, "portuguese");
     for (i = 1; i <= 5; i++)
     {
-        printf("Digite o %dº número: \n", i);
+        printf("Digite o %dÂº nÃºmero: \n", i);
         scanf("%d", &numero);
         
-        // operadores ternários:
+        // operadores ternÃ¡rios:
         // numero % 2 == 0 ? pares++ : impares++;
 
         if (numero % 2 == 0)
@@ -28,8 +28,8 @@ int main()
         }
     }
 
-    printf("Números pares: %d \n", pares);
-    printf("Números ímpares: %d \n", impares);
+    printf("NÃºmeros pares: %d \n", pares);
+    printf("NÃºmeros Ã­mpares: %d \n", impares);
 
     getchar();
     return 0;
