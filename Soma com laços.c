@@ -13,12 +13,12 @@ int main()
 
     for (i = 1; i <= 5; i++)
     {
-        printf("Digite %dº número:  \n", i);
+        printf("Digite %dÂº nÃºmero:  \n", i);
         scanf("%d", &numero);
         soma = numero + soma;
     }
 
-    printf("Soma de todos os número: %d", soma);
+    printf("Soma de todos os nÃºmeros: %d", soma);
 
     getchar();
     return 0;
