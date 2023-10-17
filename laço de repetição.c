@@ -8,16 +8,14 @@ int main()
 
     int i, numero;
 
-    printf("digite um numero de 1 até 10: \n");
+    printf("digite um numero de 1 atÃ© 10: \n");
     scanf("%d", &numero);
 
-    /* de 1 até 10
-       para i de i até 10 passo 1 faça
+    /* de 1 atÃ© 10
+       para i de i atÃ© 10 passo 1 faÃ§a
        i=i+2
        i+=2
     */
-
-    setlocale(LC_ALL, "portuguese");
 
     printf("Tabuada do %d\n", numero);
     for (i = 1; i <= 10; i++)
