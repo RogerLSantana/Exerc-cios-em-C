@@ -12,7 +12,7 @@ int main()
     scanf("%d", &numero);
 
     /* de 1 até 10
-       para i de i até 10 passo 1 faça
+       para i de 1 até 10 passo 1 faça
        i=i+2
        i+=2
     */
