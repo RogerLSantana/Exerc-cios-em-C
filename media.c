@@ -1,29 +1,34 @@
 #include <stdio.h>
-#include <stdlib.h>.
+#include <stdlib.h>
 #include <locale.h>
-#include <string>
-int main(){
-setlocale(LC_ALL, "portuguese");
-float primeiranota;
-float segundanota;
-float media;
-char resultado[200];
 
+int main()
+{
+    setlocale(LC_ALL, "portuguese");
 
-printf("digite a primeira nota: ");
-scanf("%f", &primeiranota);
+    int i = 0;
+    float soma = 0;
+    float numero;
+    float media;
 
-printf("digite segunda nota: ");
-scanf("%f", &segundanota);
-system("cls || clear");
+    do
+    {
+        printf("Digite %dº valor: \n", i + 1);
+        scanf("%f", &numero);
 
-media = (primeiranota + segundanota) / 2;
-printf("media: %.1f\n", media);
-if (media >= 7){
-strcpy(resultado, "aprovado"); 
-} else {
-    strcpy(resultado, "reprovado");
-}
-    
-return 0;
+        if (numero > 0)
+        {
+
+            soma += numero;
+            i++;
+        }
+
+    } while (numero >= 0);
+
+    media = soma / i;
+
+    printf("Média: %.2f", media);
+
+    getchar();
+    return 0;
 }
